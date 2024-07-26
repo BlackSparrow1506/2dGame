@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_ENCODING" value="UTF-8"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${MVN3_BIN}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="com.inetpsa.fnd.tools:seed-maven-plugin:scaffold-project&#13;&#10;-DgroupId=com.inetpsa.${string_prompt:Project's prdXX value (Where 'prd' is the Reflex application PRD and XX a number)?:prd00}&#13;&#10;-DartifactId=${string_prompt:Project's name (e.g. Maven artifactId) ?:}&#13;&#10;-Dversion=${string_prompt:Project's version ?:1.0.0-SNAPSHOT}&#13;&#10;-Dtype=${string_prompt:Project's type (web/domain/... please refer to SEED documentation for different types) ?:web}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc}"/>
+</launchConfiguration>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
+<booleanAttribute key="M2_DEBUG_OUTPUT" value="false"/>
+<stringAttribute key="M2_GOALS" value="com.inetpsa.fnd.tools:seed-maven-plugin:scaffold-project"/>
+<booleanAttribute key="M2_NON_RECURSIVE" value="false"/>
+<booleanAttribute key="M2_OFFLINE" value="false"/>
+<stringAttribute key="M2_PROFILES" value=""/>
+<listAttribute key="M2_PROPERTIES">
+<listEntry value="groupId=com.inetpsa.${string_prompt:Project's prdXX value (Where 'prd' is the Reflex application PRD and XX a number)?:prd00}"/>
+<listEntry value="artifactId=${string_prompt:Project's name (e.g. Maven artifactId) ?:}"/>
+<listEntry value="version=${string_prompt:Project's version ?:1.0.0-SNAPSHOT}"/>
+<listEntry value="type=${string_prompt:Project's type (web/domain/... please refer to SEED documentation for different types) ?:web}"/>
+</listAttribute>
+<stringAttribute key="M2_RUNTIME" value="C:\Program Files\MavenCIQ\bin\maven3"/>
+<booleanAttribute key="M2_SKIP_TESTS" value="false"/>
+<intAttribute key="M2_THREADS" value="1"/>
+<booleanAttribute key="M2_UPDATE_SNAPSHOTS" value="false"/>
+<booleanAttribute key="M2_WORKSPACE_RESOLUTION" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc}"/>
+</launchConfiguration>
